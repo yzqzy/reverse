@@ -1,6 +1,6 @@
 # reverse
 
-[English] | 中文文档
+[English](https://github.com/yzqzy/reverse/blob/main/README.md) | 中文文档
 
 JavaScript 逆向
 
