@@ -11,12 +11,12 @@ const inject = (promise, headers) => {
   injectHeaders(promise, headers)
 }
 
-export const get = async (url, headers = {}) => {
+export const get = (url, headers = {}) => {
   const promise = superagent.get(url)
   inject(promise, headers)
   return promise
 }
-export const post = async (url, data, headers = {}) => {
+export const post = (url, data, headers = {}) => {
   const promise = superagent.post(url).send(data)
   inject(url, headers)
   return promise
