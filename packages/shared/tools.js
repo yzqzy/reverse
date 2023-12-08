@@ -22,3 +22,4 @@ export const delay = async (start = 3, end = 15) => {
 }
 
 export const formatParams = obj => new URLSearchParams(obj).toString()
+export const jsonFormatted = obj => JSON.stringify(obj, null, 2)

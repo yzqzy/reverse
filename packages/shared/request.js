@@ -18,6 +18,6 @@ export const get = (url, headers = {}) => {
 }
 export const post = (url, data, headers = {}) => {
   const promise = superagent.post(url).send(data)
-  inject(url, headers)
+  inject(promise, headers)
   return promise
 }

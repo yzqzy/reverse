@@ -12,4 +12,4 @@ JavaScript 逆向
 
 * 百度
   - [x] [百度搜索](packages/reverse-h5-baidu/src/search.js)
-  - [ ] [百度翻译](packages/reverse-h5-baidu/src/translator.js)
+  - [x] [百度翻译](packages/reverse-h5-baidu/src/translator.js)

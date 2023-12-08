@@ -12,4 +12,4 @@ English | [中文文档](README.md)
 
 * Baidu
   - [x] [baidu search](packages/reverse-h5-baidu/src/search.js)
-  - [ ] [baidu translator](packages/reverse-h5-baidu/src/translator.js)
+  - [x] [baidu translator](packages/reverse-h5-baidu/src/translator.js)
