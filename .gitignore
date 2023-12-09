@@ -1,2 +1,3 @@
 node_modules/
-testings/
+testings/*
+!testings/.gitkeep

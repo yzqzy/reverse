@@ -38,9 +38,11 @@ const trans = async (query, from, to = 'zh') => {
     ts: Date.now(),
     token: window.common.token
   }
-  const cookie = `your cookie`
+  const headers = {
+    cookie: `your cookie`
+  }
 
-  const response = await post(url, params, { cookie })
+  const response = await post(url, params, headers)
   const data = JSON.parse(response.text)
 
   if (data.errmsg) return data
