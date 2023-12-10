@@ -11,5 +11,7 @@ JavaScript 逆向
 ## 项目
 
 * 百度
-  - [x] [百度搜索](packages/reverse-h5-baidu/src/search.js)
-  - [x] [百度翻译](packages/reverse-h5-baidu/src/translator.js)
+  - [x] [百度搜索](packages/reverse-pc-baidu/src/search.js)
+  - [x] [百度翻译](packages/reverse-pc-baidu/src/translator.js)
+* 有道
+  - [ ] [有道翻译](packages/reverse-pc-youdao/src/translator.js)

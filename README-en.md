@@ -11,5 +11,7 @@ English | [中文文档](README.md)
 ## Project
 
 * Baidu
-  - [x] [baidu search](packages/reverse-h5-baidu/src/search.js)
-  - [x] [baidu translator](packages/reverse-h5-baidu/src/translator.js)
+  - [x] [baidu search](packages/reverse-pc-baidu/src/search.js)
+  - [x] [baidu translator](packages/reverse-pc-baidu/src/translator.js)
+* 有道
+  - [ ] [youdao translator](packages/reverse-pc-youdao/src/translator.js)

@@ -12,8 +12,17 @@ importers:
         specifier: ^8.1.2
         version: 8.1.2
 
-  packages/reverse-h5-baidu:
+  packages/reverse-pc-baidu:
     dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  packages/reverse-pc-youdao:
+    dependencies:
+      Buffer:
+        specifier: ^0.0.0
+        version: 0.0.0
       shared:
         specifier: workspace:*
         version: link:../shared
@@ -21,6 +30,11 @@ importers:
   packages/shared: {}
 
 packages:
+
+  /Buffer@0.0.0:
+    resolution: {integrity: sha512-+zdncl8lI5TCkARStn9F1BwcuJYofYmD0oEHe5FNfCvGfeDJwf6+dSikCdQN6BMXXmHMhNNUagBN367WST1AIQ==}
+    engines: {node: '>= 0.2.0'}
+    dev: false
 
   /asap@2.0.6:
     resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}

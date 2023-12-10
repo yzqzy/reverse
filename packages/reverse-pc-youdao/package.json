@@ -1,5 +1,5 @@
 {
-  "name": "reverse-h5-baidu",
+  "name": "reverse-pc-youdao",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -7,6 +7,7 @@
   "author": "heora",
   "license": "MIT",
   "dependencies": {
+    "Buffer": "^0.0.0",
     "shared": "workspace:*"
   }
 }
