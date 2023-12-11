@@ -12,4 +12,4 @@ JavaScript 逆向，持续更新。
   - [x] [百度搜索](packages/reverse-pc-baidu/src/search.js) 2023/12/07
   - [x] [百度翻译](packages/reverse-pc-baidu/src/translator.js) 2023/12/09
 * 有道
-  - [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js) 2023/12/11
+  - [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js) 2023/12/12

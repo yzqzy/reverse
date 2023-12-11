@@ -45,18 +45,18 @@ function y(e) {
   return crypto.createHash('md5').update(e).digest()
 }
 
-export const getTextTranslateResult = (token, { query, from, to }) => {
+export const getTextTranslateResult = ({ query, from, to, keyid }, secretKey = '') => {
   const e = {
     i: query,
     from: from || 'auto',
     to: to || '',
     domain: '0',
-    dictResult: true,
-    keyid: 'webfanyi'
+    dictResult: true
   }
   return {
-    ...e,
-    ...E(token)
+    ...(query ? e : {}),
+    keyid: keyid || 'webfanyi',
+    ...E(secretKey)
   }
 }
 

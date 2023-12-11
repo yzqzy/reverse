@@ -12,4 +12,4 @@ JavaScript Reverse，Continually updated.
   - [x] [baidu search](packages/reverse-pc-baidu/src/search.js) 2023/12/07
   - [x] [baidu translator](packages/reverse-pc-baidu/src/translator.js) 2023/12/09
 * Youdao
-  - [x] [youdao translator](packages/reverse-pc-youdao/src/translator.js) 2023/12/11
+  - [x] [youdao translator](packages/reverse-pc-youdao/src/translator.js) 2023/12/12
