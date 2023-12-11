@@ -21,12 +21,11 @@ const langdetect = async query => {
   return JSON.parse(response.text)
 }
 
+const cookie = `your cookie`
+
 // 实时翻译
 const trans = async (query, from, to = 'zh') => {
-  const url = `${domain}/v2transapi?${formatParams({
-    from,
-    to
-  })}`
+  const url = `${domain}/v2transapi?${formatParams({ from, to })}`
   const params = {
     from,
     to,
@@ -38,9 +37,7 @@ const trans = async (query, from, to = 'zh') => {
     ts: Date.now(),
     token: window.common.token
   }
-  const headers = {
-    cookie: `your cookie`
-  }
+  const headers = { cookie }
 
   const response = await post(url, params, headers)
   const data = JSON.parse(response.text)
@@ -49,7 +46,7 @@ const trans = async (query, from, to = 'zh') => {
   return data.trans_result.data
 }
 
-const queryString = 'hello'
+const queryString = 'hello world'
 
 const language = await langdetect(queryString)
 console.log(language)

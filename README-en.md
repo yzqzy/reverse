@@ -1,6 +1,6 @@
 # reverse
 
-JavaScript Reverse
+JavaScript Reverse，Continually updated.
 
 English | [中文文档](README.md)
 
@@ -11,7 +11,7 @@ English | [中文文档](README.md)
 ## Project
 
 * Baidu
-  - [x] [baidu search](packages/reverse-pc-baidu/src/search.js)
-  - [x] [baidu translator](packages/reverse-pc-baidu/src/translator.js)
+  - [x] [baidu search](packages/reverse-pc-baidu/src/search.js) 2023/12/07
+  - [x] [baidu translator](packages/reverse-pc-baidu/src/translator.js) 2023/12/09
 * 有道
-  - [ ] [youdao translator](packages/reverse-pc-youdao/src/translator.js)
+  - [x] [youdao translator](packages/reverse-pc-youdao/src/translator.js) 2023/12/11

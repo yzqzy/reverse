@@ -1,11 +1,6 @@
 import buffer from 'buffer'
 import crypto from 'crypto'
 
-const decodeKey =
-  'ydsecret://query/key/B*RGygVywfNBwpmBaZg*WT7SIOUP2T0C9WHMZN39j^DAdaZhAnxvGcCY6VYFwnHl'
-const decodeIv =
-  'ydsecret://query/iv/C@lZe2YzHtZ2CYgaXKSVfsb7Y4QWHjITPPZ0nQp87fBeJ!Iv6v^6fvi2WN@bYpJ4'
-
 const u = 'fanyideskweb',
   d = 'webfanyi',
   m = 'client,mysticTime,product',
@@ -50,20 +45,25 @@ function y(e) {
   return crypto.createHash('md5').update(e).digest()
 }
 
-export const getTextTranslateResult = str => {
+export const getTextTranslateResult = (token, { query, from, to }) => {
   const e = {
-    dictResult: true,
+    i: query,
+    from: from || 'auto',
+    to: to || '',
     domain: '0',
-    from: 'auto',
-    i: str,
-    keyid: 'webfanyi',
-    to: ''
+    dictResult: true,
+    keyid: 'webfanyi'
   }
   return {
     ...e,
-    ...E(e)
+    ...E(token)
   }
 }
+
+const decodeKey =
+  'ydsecret://query/key/B*RGygVywfNBwpmBaZg*WT7SIOUP2T0C9WHMZN39j^DAdaZhAnxvGcCY6VYFwnHl'
+const decodeIv =
+  'ydsecret://query/iv/C@lZe2YzHtZ2CYgaXKSVfsb7Y4QWHjITPPZ0nQp87fBeJ!Iv6v^6fvi2WN@bYpJ4'
 
 export const decodeData = (t, o = decodeKey, n = decodeIv) => {
   if (!t) return null

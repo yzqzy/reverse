@@ -1,6 +1,6 @@
 # reverse
 
-JavaScript 逆向
+JavaScript 逆向，持续更新。
 
 [English](README-en.md) | 中文文档
 
@@ -11,7 +11,7 @@ JavaScript 逆向
 ## 项目
 
 * 百度
-  - [x] [百度搜索](packages/reverse-pc-baidu/src/search.js)
-  - [x] [百度翻译](packages/reverse-pc-baidu/src/translator.js)
+  - [x] [百度搜索](packages/reverse-pc-baidu/src/search.js) 2023/12/07
+  - [x] [百度翻译](packages/reverse-pc-baidu/src/translator.js) 2023/12/09
 * 有道
-  - [ ] [有道翻译](packages/reverse-pc-youdao/src/translator.js)
+  - [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js) 2023/12/11
