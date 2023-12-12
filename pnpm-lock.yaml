@@ -18,6 +18,12 @@ importers:
         specifier: workspace:*
         version: link:../shared
 
+  packages/reverse-pc-jzsc:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
   packages/reverse-pc-youdao:
     dependencies:
       Buffer:
