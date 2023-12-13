@@ -14,6 +14,7 @@ JavaScript 逆向，持续更新。
 - [猿人学](https://match.yuanrenxue.cn/)
   * [x] [入门级js](packages/code-yuanrenxue/src/2020/12/index.js)
   * [x] [入门级cookie](packages/code-yuanrenxue/src/2020/13/index.js)
+  * [x] [乌拉乌拉乌拉](packages/code-yuanrenxue/src/2020/19/index.js)
 
 ## 参考
 

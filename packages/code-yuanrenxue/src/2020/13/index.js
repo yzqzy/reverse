@@ -1,6 +1,8 @@
 /**
  * @file 入门级cookie
- * @description 还是抓取这5页的数字，计算加和并提交结果
+ * @description
+ *  1. 还是抓取这5页的数字，计算加和并提交结果
+ *  2. 动态 cookie、用户登录 + js cookie
  * @time 2023-12-13
  */
 
@@ -16,7 +18,7 @@ const evaluateFn = async () => {
 
   const login = () => {
     return new Promise(resolve => {
-      fetch('https://match.yuanrenxue.cn/api/login', {
+      fetch(`${domain}/api/login`, {
         headers: {
           'content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
         },
