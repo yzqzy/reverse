@@ -6,10 +6,14 @@ JavaScript 逆向，持续更新。
 
 ## 项目
 
--	[x] [百度搜索](packages/reverse-pc-baidu/src/search.js) 2023/12/07
--	[x] [百度翻译](packages/reverse-pc-baidu/src/translator.js) 2023/12/09
-- [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js) 2023/12/12
-- [x] [建筑市场监管平台](packages/reverse-pc-jzsc/src/index.js) 2023/12/13
+- 百度
+  *	[x] [百度搜索](packages/reverse-pc-baidu/src/search.js)
+  *	[x] [百度翻译](packages/reverse-pc-baidu/src/translator.js)
+- [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js)
+- [x] [建筑市场监管平台](packages/reverse-pc-jzsc/src/index.js)
+- [猿人谷](https://match.yuanrenxue.cn/)
+  * [x] [入门级js](packages/code-yuanrenxue/src/2020/12/index.js)
+  * [x] [入门级cookie](packages/code-yuanrenxue/src/2020/13/index.js)
 
 ## 参考
 

@@ -1,0 +1,11 @@
+{
+  "name": "reverse-yuanrenxue",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "author": "heora",
+  "license": "MIT",
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}

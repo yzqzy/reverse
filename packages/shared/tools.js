@@ -21,5 +21,21 @@ export const delay = async (start = 3, end = 15) => {
   await delaySync(delay)
 }
 
-export const formatParams = obj => new URLSearchParams(obj).toString()
 export const jsonFormatted = obj => JSON.stringify(obj, null, 2)
+export const formatParams = params => {
+  let result = ''
+  for (const key of Object.keys(params)) {
+    result += `${key}=${params[key]}&`
+  }
+  return result.slice(0, -1)
+}
+
+export const parseCookie = cookieString => {
+  const cookieArray = cookieString.split(';')
+  const cookieObject = {}
+  cookieArray.forEach(cookie => {
+    const [key, value] = cookie.split('=').map(part => part.trim())
+    cookieObject[key] = value
+  })
+  return cookieObject
+}
