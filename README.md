@@ -10,5 +10,4 @@ JavaScript 逆向，持续更新。
 -	[x] [百度搜索](packages/reverse-pc-baidu/src/search.js) 2023/12/07
 -	[x] [百度翻译](packages/reverse-pc-baidu/src/translator.js) 2023/12/09
 - [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js) 2023/12/12
-- [x] [建筑市场监管平台]() 2023/12/13
-
+- [x] [建筑市场监管平台](packages/reverse-pc-jzsc/src/index.js) 2023/12/13

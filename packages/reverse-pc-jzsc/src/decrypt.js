@@ -1,13 +1,16 @@
-// import crypto from 'crypto'
+import crypto from 'crypto-js'
 
-// function b(t) {
-//   var e = d.a.enc.Hex.parse(t),
-//     n = d.a.enc.Base64.stringify(e),
-//     a = d.a.AES.decrypt(n, f, {
-//       iv: m,
-//       mode: d.a.mode.CBC,
-//       padding: d.a.pad.Pkcs7
-//     }),
-//     r = a.toString(d.a.enc.Utf8)
-//   return r.toString()
-// }
+const f = crypto.enc.Utf8.parse('jo8j9wGw%6HbxfFn')
+const m = crypto.enc.Utf8.parse('0123456789ABCDEF')
+
+export function decodeData(t) {
+  var e = crypto.enc.Hex.parse(t),
+    n = crypto.enc.Base64.stringify(e),
+    a = crypto.AES.decrypt(n, f, {
+      iv: m,
+      mode: crypto.mode.CBC,
+      padding: crypto.pad.Pkcs7
+    }),
+    r = a.toString(crypto.enc.Utf8)
+  return r.toString()
+}

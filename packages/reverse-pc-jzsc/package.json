@@ -6,6 +6,7 @@
   "author": "heora",
   "license": "MIT",
   "dependencies": {
+    "crypto-js": "^4.2.0",
     "shared": "workspace:*"
   }
 }

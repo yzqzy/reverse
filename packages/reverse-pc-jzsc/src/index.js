@@ -3,17 +3,17 @@
  * @description 2023-12-13
  */
 
-import { formatParams } from 'shared/tools'
+import { delay, formatParams } from 'shared/tools'
+import { decodeData } from './decrypt.js'
 
 const domain = 'https://jzsc.mohurd.gov.cn'
 
-const getCompList = async () => {
+const getCompList = async page => {
   return new Promise(resolve => {
     fetch(
       `${domain}/APi/webApi/dataservice/query/comp/list?${formatParams({
-        pg: 0,
-        pgsz: 15,
-        total: 0
+        pg: page,
+        pgsz: 15
       })}`,
       {
         headers: {
@@ -25,10 +25,14 @@ const getCompList = async () => {
     )
       .then(res => res.text())
       .then(res => {
-        console.log(res)
+        const data = JSON.parse(decodeData(res))
+        resolve(data.data.list)
       })
   })
 }
 
-const data = await getCompList()
-console.log(data)
+for (let i = 0; i < 30; i++) {
+  const data = await getCompList(i)
+  console.log(i + 1, JSON.stringify(data))
+  await delay()
+}
