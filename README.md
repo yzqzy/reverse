@@ -11,7 +11,7 @@ JavaScript 逆向，持续更新。
   *	[x] [百度翻译](packages/reverse-pc-baidu/src/translator.js)
 - [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js)
 - [x] [建筑市场监管平台](packages/reverse-pc-jzsc/src/index.js)
-- [猿人谷](https://match.yuanrenxue.cn/)
+- [猿人学](https://match.yuanrenxue.cn/)
   * [x] [入门级js](packages/code-yuanrenxue/src/2020/12/index.js)
   * [x] [入门级cookie](packages/code-yuanrenxue/src/2020/13/index.js)
 
