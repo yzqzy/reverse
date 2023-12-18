@@ -12,6 +12,7 @@ JavaScript 逆向，持续更新。
 - [x] [有道翻译](packages/reverse-pc-youdao/src/translator.js)
 - [x] [建筑市场监管平台](packages/reverse-pc-jzsc/src/index.js)
 - [猿人学](https://match.yuanrenxue.cn/)
+  * [x] [js混淆 - 源码乱码](packages/code-yuanrenxue/src/2020/1/index.js)
   * [x] [入门级js](packages/code-yuanrenxue/src/2020/12/index.js)
   * [x] [入门级cookie](packages/code-yuanrenxue/src/2020/13/index.js)
   * [x] [乌拉乌拉乌拉](packages/code-yuanrenxue/src/2020/19/index.js)
@@ -19,3 +20,4 @@ JavaScript 逆向，持续更新。
 ## 参考
 
 * [kgspider/crawler](https://github.com/kgspider/crawler)
+* [match.yuanrenxue.cn](https://match.yuanrenxue.cn/list)
