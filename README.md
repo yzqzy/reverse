@@ -13,6 +13,7 @@ JavaScript 逆向，持续更新。
 - [x] [建筑市场监管平台](packages/reverse-pc-jzsc/src/index.js)
 - [猿人学](https://match.yuanrenxue.cn/)
   * [x] [js混淆 - 源码乱码](packages/code-yuanrenxue/src/2020/1/index.js)
+  * [x] [雪碧图、样式干扰](packages/code-yuanrenxue/src/2020/4/index.js)
   * [x] [入门级js](packages/code-yuanrenxue/src/2020/12/index.js)
   * [x] [入门级cookie](packages/code-yuanrenxue/src/2020/13/index.js)
   * [x] [乌拉乌拉乌拉](packages/code-yuanrenxue/src/2020/19/index.js)
