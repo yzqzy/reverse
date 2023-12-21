@@ -2,7 +2,8 @@
  * @file	访问逻辑 - 推心置腹
  * @description
  *  1. 抓取下列5页商标的数据，并将出现频率最高的申请号填入答案中
- * @time 2023-12-20
+ *  2. headers 请求排序
+ * @time 2023-12-22
  */
 
 import puppeteer from 'puppeteer'
