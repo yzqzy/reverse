@@ -7,7 +7,7 @@
  */
 
 import initCycleTLS from 'cycletls'
-import { delay, formatParams, parseCookie } from 'shared/tools'
+import { delay, formatParams, parseCookie } from 'reverse-shared/tools'
 
 const domain = 'https://match.yuanrenxue.cn'
 

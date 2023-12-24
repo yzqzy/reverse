@@ -6,8 +6,8 @@
  * @time 2023-12-19
  */
 
-import { get } from 'shared/request'
-import { delay, formatParams } from 'shared/tools'
+import { get } from 'reverse-shared/request'
+import { delay, formatParams } from 'reverse-shared/tools'
 import { btoa, md5 } from './helper.js'
 
 const domain = 'https://match.yuanrenxue.cn'

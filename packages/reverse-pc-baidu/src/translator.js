@@ -3,8 +3,8 @@
  * @description 2023-12-09
  */
 
-import { get, post } from 'shared/request'
-import { formatParams } from 'shared/tools'
+import { get, post } from 'reverse-shared/request'
+import { formatParams } from 'reverse-shared/tools'
 
 import { window } from './config.js'
 import { genSign } from './encrypt.js'

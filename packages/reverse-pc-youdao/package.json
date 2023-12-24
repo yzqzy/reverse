@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "Buffer": "^0.0.0",
-    "shared": "workspace:*"
+    "reverse-shared": "workspace:*"
   }
 }

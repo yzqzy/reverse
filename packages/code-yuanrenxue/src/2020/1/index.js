@@ -7,8 +7,8 @@
  */
 
 import puppeteer from 'puppeteer'
-import { get } from 'shared/request'
-import { delay, formatParams } from 'shared/tools'
+import { get } from 'reverse-shared/request'
+import { delay, formatParams } from 'reverse-shared/tools'
 import { evaluateFn } from './helper.js'
 
 const domain = 'https://match.yuanrenxue.cn'

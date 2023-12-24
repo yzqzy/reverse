@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "cycletls": "^1.0.24",
-    "shared": "workspace:*"
+    "reverse-shared": "workspace:*"
   }
 }

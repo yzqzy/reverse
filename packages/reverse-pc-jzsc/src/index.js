@@ -3,7 +3,7 @@
  * @description 2023-12-13
  */
 
-import { delay, formatParams } from 'shared/tools'
+import { delay, formatParams } from 'reverse-shared/tools'
 import { decodeData } from './decrypt.js'
 
 const domain = 'https://jzsc.mohurd.gov.cn'

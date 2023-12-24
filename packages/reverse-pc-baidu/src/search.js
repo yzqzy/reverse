@@ -3,8 +3,8 @@
  * @description 2023-12-07
  */
 
-import { get } from 'shared/request'
-import { formatParams } from 'shared/tools'
+import { get } from 'reverse-shared/request'
+import { formatParams } from 'reverse-shared/tools'
 
 const domain = 'https://www.baidu.com'
 

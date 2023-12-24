@@ -6,6 +6,6 @@
   "author": "heora",
   "license": "MIT",
   "dependencies": {
-    "shared": "workspace:*"
+    "reverse-shared": "workspace:*"
   }
 }
