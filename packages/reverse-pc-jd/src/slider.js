@@ -34,12 +34,15 @@ const slider = async () => {
   await delay()
   await page.click('div.login-btn')
 
-  const image_src = await page.$eval('.JDJRV-bigimg > img', el => el.src)
-  const template_src = await page.$eval('.JDJRV-smalling > img', el => el.src)
+  await delay()
+  const image_src = await page.evaluate(() => document.querySelector('.JDJRV-bigimg > img').src)
+  const template_src = await page.evaluate(
+    () => document.querySelector('.JDJRV-smallimg > img').src
+  )
 
   const distance = await get_track()
 
-  const el = await page.$$('div.JDJRV-slide-btn')
+  const el = await page.$('div.JDJRV-slide-btn')
   const box = await el.boundingBox()
   await page.hover('div.JDJRV-slide-btn')
 
