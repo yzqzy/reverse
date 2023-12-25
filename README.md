@@ -7,16 +7,16 @@ JavaScript 逆向，持续更新。
 ## 项目
 
 - 百度
-  *	[x] [百度搜索 2023-12-07](packages/reverse-pc-baidu/src/search.js)
-  *	[x] [百度翻译 2023-12-09](packages/reverse-pc-baidu/src/translator.js)
-- [x] [有道翻译 2023-12-12](packages/reverse-pc-youdao/src/translator.js)
-- [x] [建筑市场监管平台 2023-12-13](packages/reverse-pc-jzsc/src/index.js)
+  *	[x] [百度搜索（2023-12-07）](packages/reverse-pc-baidu/src/search.js)
+  *	[x] [百度翻译（2023-12-09）](packages/reverse-pc-baidu/src/translator.js)
+- [x] [有道翻译（2023-12-12）](packages/reverse-pc-youdao/src/translator.js)
+- [x] [建筑市场监管平台（2023-12-13）](packages/reverse-pc-jzsc/src/index.js)
 - [猿人学](https://match.yuanrenxue.cn/)
-  * [x] [js混淆 - 源码乱码 2023-12-18](packages/code-yuanrenxue/src/2020/1/index.js)
-  * [x] [雪碧图、样式干扰 2023-12-19](packages/code-yuanrenxue/src/2020/4/index.js)
-  * [x] [入门级js 2023-12-13](packages/code-yuanrenxue/src/2020/12/index.js)
-  * [x] [入门级cookie 2023-12-13](packages/code-yuanrenxue/src/2020/13/index.js)
-  * [x] [乌拉乌拉乌拉 2023-12-14](packages/code-yuanrenxue/src/2020/19/index.js)
+  * [x] [js混淆 - 源码乱码（2023-12-18）](packages/code-yuanrenxue/src/2020/1/index.js)
+  * [x] [雪碧图、样式干扰（2023-12-19）](packages/code-yuanrenxue/src/2020/4/index.js)
+  * [x] [入门级js（2023-12-13）](packages/code-yuanrenxue/src/2020/12/index.js)
+  * [x] [入门级cookie（2023-12-13）](packages/code-yuanrenxue/src/2020/13/index.js)
+  * [x] [乌拉乌拉乌拉（2023-12-14）](packages/code-yuanrenxue/src/2020/19/index.js)
 
 ## 参考
 
