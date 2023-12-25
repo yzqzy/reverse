@@ -11,8 +11,7 @@ import { delay, formatParams, parseCookie } from 'reverse-shared/tools'
 
 const domain = 'https://match.yuanrenxue.cn'
 
-const cookie =
-  'Hm_lvt_c99546cf032aaa5a679230de9a95c7db=1702508379; qpfccr=true; no-alert3=true; tk=-4012337813119351294; sessionid=rbgcwhfb7xg18wdtdps6tjfe3gg32j12; Hm_lvt_9bcbda9cbf86757998a2339a0437208e=1702508415; Hm_lpvt_9bcbda9cbf86757998a2339a0437208e=1702508415; Hm_lpvt_c99546cf032aaa5a679230de9a95c7db=1702508427'
+const cookie = 'your cookie'
 
 const match = async page => {
   return new Promise(async resolve => {
