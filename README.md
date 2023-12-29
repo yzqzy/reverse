@@ -9,6 +9,8 @@ JavaScript 逆向，持续更新。
 - 百度
   *	[x] [百度搜索（2023-12-07）](packages/reverse-pc-baidu/src/search.js)
   *	[x] [百度翻译（2023-12-09）](packages/reverse-pc-baidu/src/translator.js)
+- 京东
+  * [x] [滑块验证（2023-12-29）](packages/reverse-pc-jd/src/slider.js)
 - [x] [有道翻译（2023-12-12）](packages/reverse-pc-youdao/src/translator.js)
 - [x] [建筑市场监管平台（2023-12-13）](packages/reverse-pc-jzsc/src/index.js)
 - [猿人学](https://match.yuanrenxue.cn/)
@@ -22,3 +24,5 @@ JavaScript 逆向，持续更新。
 
 * [kgspider/crawler](https://github.com/kgspider/crawler)
 * [match.yuanrenxue.cn](https://match.yuanrenxue.cn/list)
+* [ddddocr](https://github.com/sml2h3/ddddocr)
+* [python_crawler](https://github.com/LeanFly/python_crawler)

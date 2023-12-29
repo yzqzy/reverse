@@ -1,4 +1,5 @@
 // https://wxsm.space/2018/fill-jd-slider-captcha-by-puppeteer/
+// 效果很差，弃用
 
 export const get_track = () => {
   /**
