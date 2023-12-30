@@ -18,6 +18,7 @@ JavaScript 逆向，持续更新。
   * [x] [4. 雪碧图、样式干扰（2023-12-19）](packages/code-yuanrenxue/src/2020/4/index.js)
   * [x] [12. 入门级js（2023-12-13）](packages/code-yuanrenxue/src/2020/12/index.js)
   * [x] [13. 入门级cookie（2023-12-13）](packages/code-yuanrenxue/src/2020/13/index.js)
+  * [x] [15. 备周则意怠 常见则不疑（2023-12-30）](packages/code-yuanrenxue/src/2020/15/index.js)
   * [x] [16. js逆向 - window蜜罐（2023-12-30）](packages/code-yuanrenxue/src/2020/16/index.js)
   * [x] [17. 天杀的Http2.0（2023-12-30）](packages/code-yuanrenxue/src/2020/17/index.js)
   * [x] [19. 乌拉乌拉乌拉（2023-12-14）](packages/code-yuanrenxue/src/2020/19/index.js)
